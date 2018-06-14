@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/note_item"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="0dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="12dp"
+    android:layout_marginRight="12dp"
+    android:layout_marginBottom="10dp"
+    android:background="@color/colorPrimaryLight">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/color_note_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Base.Widget.AppCompat.Button.Borderless"
+            android:layout_weight="0.5"
+            android:onClick="colorNote"
+            android:layout_gravity="end"
+            app:srcCompat="@drawable/ic_color_lens_white_36dp" />
+
+        <ImageButton
+            android:id="@+id/edit_note_button"
+            style="@style/Base.Widget.AppCompat.Button.Borderless"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:layout_gravity="end"
+            android:onClick="editNote"
+            app:srcCompat="@drawable/ic_mode_edit_white_36dp" />
+
+        <ImageButton
+            android:id="@+id/delete_note_button"
+            style="@style/Base.Widget.AppCompat.Button.Borderless"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:layout_weight="5"
+            android:onClick="deleteNote"
+            app:srcCompat="@drawable/ic_delete_white_36dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/noteLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="0dp"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/note_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="0dp"
+        android:textAlignment="textEnd" />
+
+    <TextView
+        android:id="@+id/note_id"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

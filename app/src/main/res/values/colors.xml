@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#fbc02d</color>
+    <color name="colorPrimaryLight">#e0e0e0</color>
+    <color name="colorPrimaryDark">#b79522</color>
+    <color name="colorPrimaryNote">#9ab79522</color>
+    <color name="colorAccent">#000000</color>
+    <color name="colorBlueNote">#42a5f5</color>
+    <color name="colorGrayNote">#bdbdbd</color>
+    <color name="colorYellowNote">#ffeb3b</color>
+    <color name="colorOrangeNote">#ff9800</color>
+    <color name="colorGreenNote">#64dd17</color>
+    <color name="colorRedNote">#d32f2f</color>
+    <color name="colorPurpleNote">#ab47bc</color>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Notizen App</string>
+    <string name="note">Notiz</string>
+    <string name="add_note">hinzufügen</string>
+    <string name="add_note_title">Notiz hinzufügen</string>
+    <string name="edit_note_title">Notiz bearbeiten</string>
+</resources>
